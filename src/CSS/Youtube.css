@@ -1,0 +1,103 @@
+.flex-container {
+  display: flex;
+}
+
+.video-responsive {
+  overflow: hidden;
+  height: 194px;
+  width: 345px;
+}
+
+.video-responsive iframe {
+  height: 194px;
+  width: 345px;
+  border-radius: 20px;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.videoItem {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card-body {
+  display: flex;
+}
+
+.video-name {
+  width: 280px;
+}
+
+.video-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 20px 10px 0 0;
+  cursor: pointer;
+}
+.video-text {
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.flex-container {
+  display: flex;
+}
+
+.videoName {
+  width: 280px;
+}
+
+@media screen and (max-width: 1000px) {
+  .video-item {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 859px) {
+  .video-item {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .video-item {
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .video-item {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .video-responsive iframe {
+    height: 150px;
+    width: 251px;
+    border-radius: 20px;
+  }
+  .video-name {
+    width: 210px;
+    margin-top: -30px;
+  }
+  .video-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -30px;
+  }
+  .video-text {
+    margin-left: 36px;
+  }
+}
+@media (max-width: 360px) {
+  .video-item {
+    margin-left: 20px;
+  }
+}
